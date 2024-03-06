@@ -5,7 +5,7 @@ import { DetailsArticleComponent } from './details-article/details-article.compo
 import { NewArticleComponent } from './new-article/new-article.component';
 import { EditArticleComponent } from './edit-article/edit-article.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: 'articles',
     component: ArticlesComponent,
